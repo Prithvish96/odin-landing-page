@@ -42,13 +42,38 @@ body {
   align-items: flex-start;
 }
 
+.awesome-button p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.awesome-button button {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  margin: 0;
+}
+
 .placeholder-image {
   background-color: gray;
-  height: 200px;
+  height: 230px;
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.placeholder-image p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
 }
 
 .logo {
@@ -61,4 +86,50 @@ body {
   font-weight: bold;
   padding: 0;
   margin: 0;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.card-image {
+  border: solid 5px #3882f6;
+  border-radius: 20px;
+  height: 180px;
+  width: 180px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 180px;
+}
+
+.content-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.card-text p {
+  text-align: center;
+  color: gray;
+  font-size: 18px;
 }
