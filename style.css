@@ -133,3 +133,80 @@ a {
   color: gray;
   font-size: 18px;
 }
+
+.quote {
+  height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 350px;
+}
+
+.quote-itself {
+  font-weight: lighter;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 750;
+}
+
+.action-container {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  width: 900px;
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.call-to-action button {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #3882f6;
+  border: solid 2px white;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.action-text-container h3 {
+  font-size: 24px;
+  font-weight: 750;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.action-text-container p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.footer {
+  height: 100px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 18px;
+  color: rgb(183, 179, 179);
+}
